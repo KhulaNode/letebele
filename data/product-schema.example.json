@@ -1,0 +1,14 @@
+{
+  "name": "OWNER-APPROVED PRODUCT NAME",
+  "slug": "owner-approved-product-slug",
+  "category": "Owner-approved category",
+  "description": "Owner and pharmacist approved description, without unverified claims.",
+  "image": "/images/approved-photo.webp",
+  "imageAlt": "Approved description of the actual product photo",
+  "priceZar": null,
+  "priceUpdatedAt": null,
+  "visible": false,
+  "ownerApproved": false,
+  "pharmacistReviewRequired": true,
+  "pharmacistApproved": false
+}

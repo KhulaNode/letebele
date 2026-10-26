@@ -1,0 +1,12 @@
+{
+  "name": "letebele-pharmacy-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "preview": "node scripts/serve.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

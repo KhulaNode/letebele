@@ -1,0 +1,29 @@
+{
+  "businessName": "Letebele Pharmacy",
+  "owner": "Sam Lamola",
+  "email": "info@letebelepharmacy.co.za",
+  "phoneDisplay": "+27 15 690 0907",
+  "phoneHref": "+27156900907",
+  "siteUrl": "",
+  "whatsappNumber": "",
+  "branches": [
+    {
+      "slug": "blood-river",
+      "name": "Blood River",
+      "streetAddress": "Shop 3, Usave Centre, New Era Drive, Blood River",
+      "addressLocality": "Polokwane",
+      "addressRegion": "Limpopo",
+      "addressCountry": "ZA",
+      "hours": null
+    },
+    {
+      "slug": "westenburg",
+      "name": "Westenburg",
+      "streetAddress": "26 Ben Harris Street, Polokwane",
+      "addressLocality": "Polokwane",
+      "addressRegion": "Limpopo",
+      "addressCountry": "ZA",
+      "hours": null
+    }
+  ]
+}

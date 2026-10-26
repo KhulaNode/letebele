@@ -1,0 +1,16 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        SITE_URL: ${SITE_URL:-}
+        WHATSAPP_NUMBER: ${WHATSAPP_NUMBER:-}
+    expose:
+      - "8080"
+    networks:
+      - dokploy-network
+    restart: unless-stopped
+
+networks:
+  dokploy-network:
+    external: true
