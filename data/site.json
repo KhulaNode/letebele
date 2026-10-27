@@ -4,8 +4,9 @@
   "email": "info@letebelepharmacy.co.za",
   "phoneDisplay": "+27 15 690 0907",
   "phoneHref": "+27156900907",
+  "publicHolidayHours": "same-as-sunday",
   "siteUrl": "",
-  "whatsappNumber": "",
+  "whatsappNumber": "27614884531",
   "branches": [
     {
       "slug": "blood-river",
@@ -14,7 +15,34 @@
       "addressLocality": "Polokwane",
       "addressRegion": "Limpopo",
       "addressCountry": "ZA",
-      "hours": null
+      "mapUrl": "https://www.google.com/maps/place/Letebele+Pharmacy/@-23.8287844,29.3786049,19z/data=!3m1!4b1!4m6!3m5!1s0x1ec720da43080601:0x81b5b776bf25b7c9!8m2!3d-23.8287856!4d29.3792486!16s%2Fg%2F11tfh9y7hg!5m1!1e1",
+      "hours": [
+        {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "days": [
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "days": [
+            "Sunday"
+          ],
+          "opens": "08:30",
+          "closes": "16:00"
+        }
+      ]
     },
     {
       "slug": "westenburg",
@@ -23,7 +51,34 @@
       "addressLocality": "Polokwane",
       "addressRegion": "Limpopo",
       "addressCountry": "ZA",
-      "hours": null
+      "mapUrl": "https://www.google.com/maps/place/Letebele+Pharmacy/@-23.9039877,29.4303899,21z/data=!4m15!1m8!3m7!1s0x1ec6d81031d4dccb:0x362b0500d9ae1ed!2s26+Ben+Harris+St,+Westenburg,+Polokwane,+0699!3b1!8m2!3d-23.90386!4d29.43028!16s%2Fg%2F11wh3hpmcg!3m5!1s0x1ec6d81037302ccf:0x826df17a4f802a34!8m2!3d-23.90386!4d29.43028!16s%2Fg%2F11tbwmlnfc!5m1!1e1",
+      "hours": [
+        {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "days": [
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "days": [
+            "Sunday"
+          ],
+          "opens": "08:30",
+          "closes": "16:00"
+        }
+      ]
     }
   ]
 }

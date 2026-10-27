@@ -1,4 +1,4 @@
-const allowedEvents = new Set(['catalogue_view', 'directions_click', 'phone_tap', 'whatsapp_request_click']);
+const allowedEvents = new Set(['catalogue_view', 'directions_click', 'phone_tap', 'whatsapp_order_click']);
 function track(type) {
   if (allowedEvents.has(type)) window.dispatchEvent(new CustomEvent('letebele:aggregate-event', { detail: { type } }));
 }
@@ -39,8 +39,8 @@ if (requestForm) requestForm.addEventListener('submit', event => {
   const branch = requestForm.elements.branch.value;
   const quantity = Number(requestForm.elements.quantity.value);
   if (!Number.isInteger(quantity) || quantity < 1 || quantity > 99) return;
-  const message = `Hello Letebele Pharmacy. I would like to request ${product} (quantity: ${quantity}) for collection at ${branch}. Please confirm current price and availability before I travel.`;
-  track('whatsapp_request_click');
+  const message = `Hello Letebele Pharmacy. I would like to request ${product} (quantity: ${quantity}) for collection at ${branch}.\nProduct link: ${window.location.href}`;
+  track('whatsapp_order_click');
   window.open(`https://wa.me/${number}?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
 });
 
